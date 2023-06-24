@@ -1,0 +1,258 @@
+main {
+    .hero {
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+
+        .copy {
+            max-width: 850px;
+            margin: auto 0;
+
+            .cta {
+                display: inline-flex;
+                justify-content: center;
+
+                svg {
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    margin-right: 12px;
+                }
+
+                background-color: $pink-50;
+                box-shadow: $pink-800 5px 5px 0 0;
+                border: 2px $pink-800 solid;
+                padding: 18px 40px;
+                text-transform: uppercase;
+                font-weight: 900;
+                color: $pink-800;
+                margin-top: 30px;
+            }
+        }
+
+        &:after {
+            display: none;
+
+            @media screen and (min-width: 1160px) {
+                display: block;
+                background-image: url('/img/pad.svg');
+                content: "";
+                position: absolute;
+                width: 40%;
+                height: 120%;
+                background-repeat: no-repeat;
+                background-size: contain;
+                top: 0;
+                right: 0;
+                transform: translate3d(40%, -10%, 0);
+            }
+        }
+    }
+
+    .pad {
+        width: 40%;
+        position: relative;
+        left: 63%;
+        transform: translateY(0%);
+
+        @media screen and (min-width: 768px) {
+            transform: translateY(-25%);
+        }
+
+        @media screen and (min-width: 1160px) {
+            display: none;
+        }
+    }
+
+    .tampon {
+        max-height: 500px;
+
+        @media screen and (min-width: 758px) {
+            display: none;
+        }
+    }
+
+    .accessibility {
+    }
+
+    .discover {
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -10px;
+            background-image: url("/img/tampon.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 700px;
+            width: 100%;
+            max-width: 35%;
+            z-index: -10;
+            rotate: -10deg;
+
+            @media screen and (min-width: 1000px) {
+                left: -5%;
+            }
+            @media screen and (min-width: 1160px) {
+                left: -10%;
+            }
+        }
+
+        .area {
+            margin-bottom: 115px;
+
+            .locations {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 45px;
+                margin: 22px 0;
+
+                @media screen and (min-width: 935px) {
+                    grid-template-columns: 2fr 2fr;
+                }
+
+                article {
+                    display: flex;
+                    position: relative;
+                    background-color: $pink-50;
+                    box-shadow: $pink-800 10px 10px 0 0;
+                    border: 2px $pink-800 solid;
+                    color: $pink-900;
+
+                    img {
+                        max-width: 150px;
+                    }
+
+                    a {
+                        position: absolute;
+                        display: inline-flex;
+                        bottom: 18px;
+                        right: 18px;
+                        color: $pink-900;
+                        text-decoration: none;
+
+                        svg {
+                            margin: auto 0 auto 8px;
+                        }
+                    }
+
+                    .info {
+                        display: block;
+                        padding: 22px 40px;
+
+                        .name {
+                            font-family: $poppins;
+                            font-size: 28px;
+                            font-weight: 900;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .polka-dots {
+            position: relative;
+            left: 65%;
+            @media screen and (min-width: 935px) {
+                left: 80%;
+            }
+            @media screen and (min-width: 1160px) {
+                left: 90%;
+            }
+            bottom: 125px;
+            z-index: -10;
+        }
+    }
+
+    .support {
+        background: $pink-300;
+        color: $pink-50;
+        width: 100%;
+        padding: 90px 0;
+        z-index: 0;
+
+        .container {
+            position: relative;
+            z-index: 0;
+
+            .ctas {
+                margin-top: 75px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                span {
+                    display: block;
+                    font-family: $hand-drawn;
+                    font-size: 28px;
+                    margin: 20px auto;
+                    @media screen and (min-width: 768px) {
+                        margin: auto 20px;
+                    }
+                    rotate: -6deg;
+                    text-align: center;
+                }
+
+                a {
+                    svg {
+                        margin-top: auto;
+                        margin-bottom: auto;
+                    }
+
+                    display: inline-flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 18px;
+                    text-align: center;
+                    background-color: #FFE3EC;
+                    box-shadow: #870557 5px 5px 0 0;
+                    border: 2px #870557 solid;
+                    padding: 18px;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    color: #870557;
+                    @media screen and (min-width: 768px) {
+                        width: 100%;
+                    }
+                }
+
+                @media screen and (min-width: 768px) {
+                    flex-direction: row;
+                    gap: 20px;
+                    justify-content: left;
+                }
+            }
+
+            &:after {
+                content: '';
+                background-image: url("/img/cup.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+
+                width: 100%;
+                height: 100%;
+                max-height: 300px;
+                max-width: 285px;
+
+                position: absolute;
+
+                top: -25%;
+                left: -10%;
+
+                @media screen and (min-width: 935px) {
+                    top: -35%;
+                    left: -5%;
+                }
+
+                @media screen and (min-width: 1450px) {
+                    left: -300px;
+                    width: 400px;
+                    max-width: 400px;
+                    max-height: 400px;
+                }
+            }
+        }
+    }
+}

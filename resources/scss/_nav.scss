@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  @media screen and (min-width: 748px) {
+    flex-direction: row;
+  }
+
+  nav {
+    margin: auto auto;
+    justify-content: center;
+
+    a {
+      color: $pink-700;
+      font-weight: bold;
+      display: inline-block;
+      margin: 25px;
+      z-index: 10;
+      cursor: pointer;
+
+      &.active {
+        color: $pink-900;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -30px;
+          left: -8px;
+          background-image: url("/img/active-indicator.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 70px;
+          width: 80px;
+          z-index: -10;
+        }
+      }
+    }
+
+    @media screen and (min-width: 748px) {
+      margin-right: unset;
+    }
+  }
+
+  .logo {
+    max-width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 748px) {
+      margin-left: unset;
+    }
+  }
+}

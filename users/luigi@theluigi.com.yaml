@@ -1,0 +1,18 @@
+name: 'Luigi Battaglioli'
+super: true
+id: 7e0f1453-e058-4f18-b529-89fbe038e186
+password_hash: $2y$10$c4Ys3bT9j.RWvQYBgrzas.iQhrrjd3IHp1/buN6l56.FWdN2lRwMe
+preferences:
+  taxonomies:
+    city:
+      after_save: create_another
+      columns:
+        - title
+        - slug
+        - taxonomy
+  collections:
+    pantries:
+      columns:
+        - title
+        - address
+        - city

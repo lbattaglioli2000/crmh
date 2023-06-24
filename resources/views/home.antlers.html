@@ -1,0 +1,263 @@
+<section class="container hero">
+    <div class="copy">
+        <h1>Empowering Menstrual Health in the Capital Region</h1>
+        <p>
+            Capital Region Menstrual Health is a non-profit organization working to promote
+            the health and well-being of individuals who menstruate in our community. Our mission is to
+            increase period equity by providing access to menstrual hygiene products and education.
+        </p>
+        <a class="cta">
+            <svg width="20px" height="20px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                   stroke-linecap="round" stroke-linejoin="round">
+                    <g id="MacBook-Pro-14&quot;" transform="translate(-241.000000, -753.000000)" stroke="#870557"
+                       stroke-width="1.5">
+                        <g id="Group-20" transform="translate(199.000000, 400.000000)">
+                            <g id="Group-21" transform="translate(43.000000, 348.000000)">
+                                <g id="Group" transform="translate(0.000000, 6.000000)">
+                                    <path
+                                        d="M14.1666667,14.1666665 L11.4011111,11.4011109 M11.4011111,11.4011109 C12.3484604,10.4537617 12.7184424,9.07297004 12.3716885,7.77886687 C12.0249346,6.48476371 11.014125,5.47395407 9.72002183,5.12720018 C8.42591866,4.78044628 7.04512703,5.1504283 6.09777778,6.09777759 C4.63299589,7.56255948 4.63299589,9.93744016 6.09777778,11.402222 C7.56255966,12.8670039 9.93744034,12.8670039 11.4022222,11.402222 L11.4011111,11.4011109 Z M20,10 C20,13.5726558 18.0940108,16.873926 15,18.660254 C11.9059893,20.446582 8.09401075,20.446582 5,18.660254 C1.90598917,16.873926 0,13.5726558 0,10 C0,4.47715239 4.47715258,0 10,0 C15.5228474,0 20,4.47715239 20,10 L20,10 Z"
+                                        id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            Find a Period Pantry
+        </a>
+    </div>
+</section>
+<img src="img/pad.svg" alt="Pad art" class="pad">
+
+<section class="container accessibility">
+    <h2>Dignity & Accessibility for All</h2>
+    <p>
+        We're excited to announce the launch of our first Period Pantry at the Bethesda House in
+        Schenectady, NY, with two additional pantries at SICM and The YWCA of Schenectady. These
+        small, free, weather-protected containers offer a variety of menstrual hygiene products,
+        just like a Little Free Library or Little Food Pantry.
+    </p>
+    <p>
+        <strong>
+            Our goal is to make it easy for individuals in under-resourced communities to access
+            the period products they need, whenever they need them.
+        </strong>
+    </p>
+</section>
+
+<section class="container discover">
+    <h2>Discover Our Period Pantry Locations: Access to Free Menstrual Products in Your Neighborhood</h2>
+    <p>
+        We're proud to have established Period Pantries in multiple locations across the Capital Region,
+        making it convenient for individuals in need to access menstrual hygiene products. Each Period
+        Pantry is stocked with a variety of essential products to ensure that everyone can find what
+        they need.
+    </p>
+
+    {{ taxonomy:city }}
+        <div class="area" id="{{ slug }}">
+            <h3>{{ title }}</h3>
+            <div class="locations">
+                {{ entries:pantry }}
+                <article id="{{ slug }}">
+                    <img
+                        src="{{ photo:url }}"
+                        alt="{{ title }} in {{ city:title }}"
+                    >
+                    <div class="info">
+                        <h4 class="name">{{ title }}</h4>
+                        <a data-remodal-target="{{ slug }}" href="#">
+                            Learn More
+                            <svg width="14.5000022px" height="12.5000045px" viewBox="0 0 14.5000022 12.5000045"
+                                 version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                   stroke-linecap="round" stroke-linejoin="round">
+                                    <g id="MacBook-Pro-14&quot;" transform="translate(-724.250000, -2060.249998)"
+                                       stroke="#870557" stroke-width="1.5">
+                                        <g id="Group-24" transform="translate(199.000000, 1913.000000)">
+                                            <g id="Group-4" transform="translate(417.000000, 140.000000)">
+                                                <g id="Group" transform="translate(109.000000, 8.000000)">
+                                                    <path d="M0,5.5 L13,5.5 M13,5.5 L7.15,0 M13,5.5 L7.15,11"
+                                                          id="Shape"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                {{ /entries:pantry }}
+            </div>
+        </div>
+    {{ /taxonomy:city }}
+
+    <img class="polka-dots" src="img/polka-dots.svg" alt="Pink polka-dots">
+</section>
+
+<section class="support">
+    <div class="container">
+        <h2>If you can, help support our mission</h2>
+        <p>
+            We believe that every person who menstruates should have access to the products and resources
+            they need to manage their period with dignity and comfort. That's why we're accepting donations
+            of period products and monetary donations.
+        </p>
+        <p>
+            You can make a monetary donation that will help us continue to expand our Period Pantry network
+            and provide essential menstrual hygiene products to those in need. If you'd like to donate period
+            products, please contact CRMH for more information on how to make a donation.
+        </p>
+
+        <div class="ctas">
+            <a class="cta">
+                <svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                       stroke-linecap="round" stroke-linejoin="round">
+                        <g id="MacBook-Pro-14&quot;" transform="translate(-253.000000, -3498.000000)" stroke="#A30664"
+                           stroke-width="1.5">
+                            <g id="Group-8" transform="translate(199.000000, 3476.000000)">
+                                <g id="Group" transform="translate(55.644491, 23.000000)">
+                                    <path
+                                        d="M9.44906445,2.99999981 L9.44906445,14.9999998 M6.2993763,12.1819998 L7.22223493,12.8409998 C8.4516632,13.7199998 10.4454158,13.7199998 11.675894,12.8409998 C12.9063721,11.9619998 12.9063721,10.5379998 11.675894,9.65899981 C11.0617048,9.21899981 10.2553846,8.99999981 9.44906445,8.99999981 C8.68788981,8.99999981 7.92671518,8.77999981 7.34612266,8.34099981 C6.18493763,7.46199981 6.18493763,6.03799981 7.34612266,5.15899981 C8.50730769,4.27999981 10.3908212,4.27999981 11.5520062,5.15899981 L11.9877131,5.48899981 M18.8981289,9 C18.8981289,12.2153902 17.0971474,15.1865334 14.1735967,16.7942286 C11.250046,18.4019237 7.64808292,18.4019237 4.72453218,16.7942286 C1.80098145,15.1865334 4.66247507e-16,12.2153902 4.66247507e-16,9 C4.66247507e-16,4.02943714 4.23049033,0 9.44906445,0 C14.6676386,0 18.8981289,4.02943714 18.8981289,9 L18.8981289,9 Z"
+                                        id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                Make a monetary donation
+            </a>
+            <span>OR...</span>
+            <a class="cta">
+                <svg width="22px" height="19px" viewBox="0 0 22 19" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                       stroke-linecap="round" stroke-linejoin="round">
+                        <g id="MacBook-Pro-14&quot;" transform="translate(-939.000000, -3500.000000)" stroke="#A30664"
+                           stroke-width="1.5">
+                            <g id="Group-7" transform="translate(864.000000, 3476.000000)">
+                                <g id="Group" transform="translate(76.642412, 25.000000)">
+                                    <path
+                                        d="M18.8981289,4.5 C18.8981289,2.015 16.6943971,0 13.9762162,0 C11.9446674,0 10.1997401,1.126 9.44906445,2.733 C8.69838877,1.126 6.95346154,0 4.92086279,0 C2.2047817,0 0,2.015 0,4.5 C0,11.72 9.44906445,16.5 9.44906445,16.5 C9.44906445,16.5 18.8981289,11.72 18.8981289,4.5 Z"
+                                        id="Path"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                Donate Period Products
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <h2>Together, we can bring about menstrual health and equity in the Capital Region.</h2>
+        <p>If you want to get in touch with us to learn more about the work we’re doing, or to learn how
+            you can make a difference, you can reach out to us below, and someone from our team will get
+            back to you.
+        </p>
+
+        {{ form:contact_form }}
+
+            {{ if success }}
+                <div class="bg-green-300 text-white p-2">
+                    {{ success }}
+                </div>
+            {{ else }}
+                {{ if errors }}
+                    <div class="bg-red-300 text-white p-2">
+                        {{ errors }}
+                        {{ value }}<br>
+                        {{ /errors }}
+                    </div>
+                {{ /if }}
+
+                {{ fields }}
+                    <div class="form-row">
+                        <label>{{ display }}</label>
+                        <div>{{ field }}</div>
+                        {{ if error }}
+                            <p class="text-gray-500">{{ error }}</p>
+                        {{ /if }}
+                    </div>
+                {{ /fields }}
+
+                <input type="text" class="important-field" name="{{ honeypot ?? 'honeypot' }}">
+
+                <button type="submit">Submit</button>
+            {{ /if }}
+
+        {{ /form:contact_form }}
+
+    </div>
+</section>
+
+<div class="remodal-bg">
+    {{ collection:pantries }}
+        <div class="remodal" data-remodal-id="{{ slug }}">
+
+            <div class="map"
+                 id="{{ slug }}-map"
+                 data-name="{{ title }}"
+                 data-address="{{ address }}"
+                 data-city="{{ city:title }}"
+                 data-state="NY"
+                 data-zip="{{ postal_code }}"
+            ></div>
+
+            <button data-remodal-action="close" class="remodal-close"></button>
+
+            <div class="content">
+                <h1>{{ title }} Period Pantry</h1>
+                {{ details }}
+
+                <div class="info">
+                    <div class="address">
+                        <svg width="26.5004076px" height="24.5678854px" viewBox="0 0 26.5004076 24.5678854" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                <g id="Pantry-Detail-Modal" transform="translate(-552.249796, -1066.541346)" stroke="#A30664" stroke-width="1.5">
+                                    <g id="Group-34" transform="translate(506.000000, 481.431855)">
+                                        <g id="Group-33" transform="translate(47.000000, 376.568145)">
+                                            <g id="Group-29" transform="translate(0.000000, 202.000000)">
+                                                <g id="Group" transform="translate(0.000000, 7.000000)">
+                                                    <path d="M7.69230769,23.3592311 L7.69230769,17.1117341 C7.69230769,16.3158991 8.33846154,15.670004 9.13461538,15.670004 L12.0192308,15.670004 C12.8153846,15.670004 13.4615385,16.3158991 13.4615385,17.1117341 L13.4615385,23.3592311 M13.4615385,23.3592311 L19.2307692,23.3592311 L19.2307692,0.989987986 M13.4615385,23.3592311 L23.0769231,23.3592311 L23.0769231,10.2234682 M0,23.3592311 L1.92307692,23.3592311 M25,23.3592311 L1.92307692,23.3592311 M0,7.98077693 L5.76923077,5.88418102 M21.1538462,0.29154986 L19.2307692,0.989987986 M19.2307692,8.94193032 L23.0769231,10.2234682 M25,10.8642371 L23.0769231,10.2234682 M5.76923077,5.88418102 L5.76923077,0.29154986 L1.92307692,0.29154986 L1.92307692,23.3592311 M5.76923077,5.88418102 L19.2307692,0.989987986" id="Shape"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+
+                        <address>
+                            {{ address }},
+                            <br>
+                            {{ city:title }}, NY
+                            <br>
+                            {{ postal_code }}
+                        </address>
+                    </div>
+                    <div class="hours">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="25.5"><path fill="none" fill-rule="evenodd" stroke="#A30664" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12.75 4.75v8h6m6 0a12 12 0 0 1-24 0c0-6.627 5.373-12 12-12s12 5.373 12 12h0Z"/></svg>
+
+                        <span>
+                            Accessible 24/7
+                        </span>
+                    </div>
+                </div>
+
+                <a target="_blank" href="https://www.google.com/maps?q={{ (address + ', ' + city:title + ', NY ' + postal_code) | urlencode }}">
+                    Get Directions in <b>Google Maps</b>
+                </a>
+            </div>
+        </div>
+    {{ /collection:pantries }}
+</div>
