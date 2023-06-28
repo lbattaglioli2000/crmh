@@ -895,6 +895,7 @@ main .discover .area .locations article .info .name {
 }
 main .discover .polka-dots {
   position: relative;
+  overflow-x: hidden;
   left: 65%;
   bottom: 200px;
   z-index: -10;

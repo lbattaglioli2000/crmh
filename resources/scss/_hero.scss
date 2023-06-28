@@ -155,6 +155,7 @@ main {
 
         .polka-dots {
             position: relative;
+            overflow-x: hidden;
             left: 65%;
             @media screen and (min-width: 935px) {
                 left: 80%;
