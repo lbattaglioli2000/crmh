@@ -656,8 +656,6 @@ body, html {
   width: 100%;
   background-color: #FFB8D2;
   border-top: #620042 12px solid;
-  overflow-y: unset;
-  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 21px;
   line-height: 1.75;
@@ -687,7 +685,7 @@ body h3, html h3 {
   padding-bottom: 0;
 }
 
-body {
+html {
   overflow-x: hidden;
 }
 

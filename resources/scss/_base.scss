@@ -22,9 +22,6 @@ body, html {
     background-color: #FFB8D2;
     border-top: $pink-900 12px solid;
 
-    overflow-y: unset;
-    overflow-x: hidden;
-
     font-family: $poppins;
     font-size: 21px;
     line-height: 1.75;
@@ -54,7 +51,7 @@ body, html {
     }
 }
 
-body {
+html {
     overflow-x: hidden;
 }
 
