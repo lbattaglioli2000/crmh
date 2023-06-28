@@ -7,6 +7,6 @@ address: '839 Albany Street'
 city: schenectady
 postal_code: '12307'
 updated_by: 7e0f1453-e058-4f18-b529-89fbe038e186
-updated_at: 1687913625
-photo: sicm-pantry.png
+updated_at: 1687915045
+photo: sicm.png
 ---
