@@ -6,7 +6,6 @@ details: 'The period pantry is located in the Bethesda House courtyard. It’s b
 address: '834 State Street'
 city: schenectady
 postal_code: '12307'
-photo: pantry.jpeg
 updated_by: 7e0f1453-e058-4f18-b529-89fbe038e186
 updated_at: 1687636698
 ---
