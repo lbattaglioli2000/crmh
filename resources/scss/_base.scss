@@ -15,41 +15,49 @@ $poppins: 'Poppins', sans-serif;
 $stencil: 'Saira Stencil One', monospace;
 
 body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #FFB8D2;
-  border-top: $pink-900 12px solid;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFB8D2;
+    border-top: $pink-900 12px solid;
 
-  font-family: $poppins;
-  font-size: 21px;
-  line-height: 1.75;
-  color: $pink-900;
-
-  h1, h2 {
-    font-family: $dyna-puff;
-    font-size: 56px;
-    line-height: 1.25;
-  }
-
-  h3 {
     font-family: $poppins;
-    color: $purple-accent;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
+    font-size: 21px;
+    line-height: 1.75;
+    color: $pink-900;
+
+    h1, h2 {
+        font-family: $dyna-puff;
+        font-size: 36px;
+        line-height: 1.25;
+
+        @media screen and (min-width: 590px) {
+            font-size: 48px;
+        }
+
+        @media screen and (min-width: 768px) {
+            font-size: 56px;
+        }
+    }
+
+    h3 {
+        font-family: $poppins;
+        color: $purple-accent;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .container {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 28px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 28px;
 }

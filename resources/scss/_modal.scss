@@ -20,13 +20,15 @@
 
     .content {
         text-align: left;
-        padding: 1.5rem;
+        padding: 1.2rem;
         color: $pink-900;
 
         h1 {
             font-family: "Poppins", sans-serif;
             font-size: 36px;
             margin-bottom: 0;
+            margin-top: 18px;
+            padding-top: 0;
             padding-bottom: 0;
         }
         p {
@@ -49,7 +51,12 @@
 
         .info {
             display: flex;
+            flex-direction: column;
             gap: 30px;
+
+            @media screen and (min-width: 590px) {
+                flex-direction: row;
+            }
 
             .address {
                 margin-bottom: auto;
