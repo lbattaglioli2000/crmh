@@ -21,6 +21,8 @@ body, html {
     width: 100%;
     background-color: #FFB8D2;
     border-top: $pink-900 12px solid;
+
+    overflow-y: visible;
     overflow-x: hidden;
 
     font-family: $poppins;
