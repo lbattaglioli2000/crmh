@@ -6,7 +6,7 @@ details: 'Green box with spring-themed designs including flowers, bees, birds, a
 address: '1044 State Street'
 city: schenectady
 postal_code: '12307'
-photo: hh-pantry.png
+photo: hometown-health.png
 updated_by: 7e0f1453-e058-4f18-b529-89fbe038e186
-updated_at: 1687913526
+updated_at: 1687915036
 ---
