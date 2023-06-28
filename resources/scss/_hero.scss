@@ -3,7 +3,6 @@ main {
         justify-content: space-between;
         position: relative;
         display: flex;
-        overflow-x: hidden;
 
         .copy {
             max-width: 850px;
@@ -78,7 +77,6 @@ main {
 
     .discover {
         position: relative;
-        overflow-x: hidden;
 
         &:before {
             content: "";
