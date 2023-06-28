@@ -7,6 +7,6 @@ address: '834 State Street'
 city: schenectady
 postal_code: '12307'
 updated_by: 7e0f1453-e058-4f18-b529-89fbe038e186
-updated_at: 1687913594
-photo: bethesda-house-pantry.png
+updated_at: 1687915025
+photo: bethesda-house.png
 ---
