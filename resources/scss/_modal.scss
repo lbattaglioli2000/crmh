@@ -9,7 +9,8 @@
     background-color: $pink-50;
 
     .remodal-close {
-        color: white;
+        color: $pink-900;
+        z-index: 50;
     }
 
     .map {

@@ -34,7 +34,7 @@ $(function () {
         loader.load().then(() => {
             const geocoder = new google.maps.Geocoder();
 
-            geocoder.geocode({ address }, (results, status) => {
+            geocoder.geocode({ address: fullAddress }, (results, status) => {
                 if (status === google.maps.GeocoderStatus.OK) {
                     // Extract the latitude and longitude from the first result
                     const location = results[0].geometry.location;
@@ -47,7 +47,8 @@ $(function () {
                     // Create a new Map instance
                     const map = new google.maps.Map(mapEl[0], {
                         center: { lat: latitude, lng: longitude },
-                        zoom: 15
+                        zoom: 15,
+                        disableDefaultUI: true
                     });
 
                     // Add a marker for the result
@@ -72,7 +73,7 @@ $(function () {
 
 $(function () {
     // smooth scroll to locations
-    $('a[href*="#"]').on('click', function (e) {
+    $('a[href*="#pantries"]').on('click', function (e) {
         e.preventDefault();
 
         $('html, body').animate({

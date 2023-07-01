@@ -1,4 +1,1141 @@
 @import url(https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=DynaPuff:wght@400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Saira+Stencil+One&display=swap);
-html.remodal-is-locked{overflow:hidden;touch-action:none}.remodal,[data-remodal-id]{display:none}.remodal-overlay{bottom:-5000px;display:none;left:-5000px;position:fixed;right:-5000px;top:-5000px;z-index:9999}.remodal-wrapper{-webkit-overflow-scrolling:touch;bottom:0;display:none;left:0;overflow:auto;position:fixed;right:0;text-align:center;top:0;z-index:10000}.remodal-wrapper:after{content:"";display:inline-block;height:100%;margin-left:-.05em}.remodal-overlay,.remodal-wrapper{backface-visibility:hidden}.remodal{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;outline:none;position:relative}.remodal-is-initialized{display:inline-block}
-.remodal-bg.remodal-is-opened,.remodal-bg.remodal-is-opening{filter:blur(3px)}.remodal-overlay{background:rgba(43,46,56,.9)}.remodal-overlay.remodal-is-closing,.remodal-overlay.remodal-is-opening{animation-duration:.3s;animation-fill-mode:forwards}.remodal-overlay.remodal-is-opening{animation-name:remodal-overlay-opening-keyframes}.remodal-overlay.remodal-is-closing{animation-name:remodal-overlay-closing-keyframes}.remodal-wrapper{padding:10px 10px 0}.remodal{background:#fff;box-sizing:border-box;color:#2b2e38;margin-bottom:10px;padding:35px;transform:translateZ(0);width:100%}.remodal.remodal-is-closing,.remodal.remodal-is-opening{animation-duration:.3s;animation-fill-mode:forwards}.remodal.remodal-is-opening{animation-name:remodal-opening-keyframes}.remodal.remodal-is-closing{animation-name:remodal-closing-keyframes}.remodal,.remodal-wrapper:after{vertical-align:middle}.remodal-close{background:transparent;border:0;color:#95979c;cursor:pointer;display:block;height:35px;left:0;margin:0;outline:0;overflow:visible;padding:0;position:absolute;text-decoration:none;top:0;transition:color .2s;width:35px}.remodal-close:focus,.remodal-close:hover{color:#2b2e38}.remodal-close:before{content:"\00d7";display:block;font-family:Arial,Helvetica CY,Nimbus Sans L,sans-serif!important;font-size:25px;left:0;line-height:35px;position:absolute;text-align:center;top:0;width:35px}.remodal-cancel,.remodal-confirm{border:0;cursor:pointer;display:inline-block;font:inherit;margin:0;min-width:110px;outline:0;overflow:visible;padding:12px 0;text-align:center;text-decoration:none;transition:background .2s;vertical-align:middle}.remodal-confirm{background:#81c784;color:#fff}.remodal-confirm:focus,.remodal-confirm:hover{background:#66bb6a}.remodal-cancel{background:#e57373;color:#fff}.remodal-cancel:focus,.remodal-cancel:hover{background:#ef5350}.remodal-cancel::-moz-focus-inner,.remodal-close::-moz-focus-inner,.remodal-confirm::-moz-focus-inner{border:0;padding:0}@keyframes remodal-opening-keyframes{0%{opacity:0;transform:scale(1.05)}to{filter:blur(0);opacity:1;transform:none}}@keyframes remodal-closing-keyframes{0%{opacity:1;transform:scale(1)}to{filter:blur(0);opacity:0;transform:scale(.95)}}@keyframes remodal-overlay-opening-keyframes{0%{opacity:0}to{opacity:1}}@keyframes remodal-overlay-closing-keyframes{0%{opacity:1}to{opacity:0}}@media only screen and (min-width:641px){.remodal{max-width:700px}}.lt-ie9 .remodal-overlay{background:#2b2e38}.lt-ie9 .remodal{width:700px}
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}body,html{background-color:#ffb8d2;border-top:12px solid #620042;color:#620042;font-family:Poppins,sans-serif;font-size:21px;height:100%;line-height:1.75;margin:0;padding:0;width:100%}body h1,body h2,html h1,html h2{font-family:DynaPuff,sans-serif;font-size:36px;line-height:1.25}@media screen and (min-width:590px){body h1,body h2,html h1,html h2{font-size:48px}}@media screen and (min-width:768px){body h1,body h2,html h1,html h2{font-size:56px}}body h3,html h3{color:#9446ed;font-family:Poppins,sans-serif;font-weight:500;margin-bottom:0;padding-bottom:0;text-transform:uppercase}.container{margin-left:auto;margin-right:auto;max-width:1170px;padding:28px}header{display:flex;flex-direction:column;padding:0}@media screen and (min-width:748px){header{flex-direction:row}}header nav{justify-content:center;margin:auto}header nav a{color:#a30664;cursor:pointer;display:inline-block;font-weight:700;margin:12px;z-index:10}header nav a.active{color:#620042;position:relative}header nav a.active:after{background-image:url(/img/active-indicator.svg);background-repeat:no-repeat;background-size:contain;bottom:-30px;content:"";height:70px;left:-8px;position:absolute;width:80px;z-index:-10}@media screen and (min-width:748px){header nav{margin-right:unset}}header .logo{height:auto;margin-left:auto;margin-right:auto;max-width:200px}@media screen and (min-width:748px){header .logo{margin-left:unset}}main .hero{display:flex;justify-content:space-between;position:relative}main .hero .copy{margin:auto 0;max-width:850px}main .hero .copy .cta{background-color:#ffe3ec;border:2px solid #870557;box-shadow:5px 5px 0 0 #870557;color:#870557;display:inline-flex;font-weight:900;justify-content:center;margin-top:30px;padding:18px 40px;text-decoration:none;text-transform:uppercase}main .hero .copy .cta svg{margin-bottom:auto;margin-right:12px;margin-top:auto}main .hero:after{display:none}@media screen and (min-width:1160px){main .hero:after{background-image:url(/img/pad.svg);background-repeat:no-repeat;background-size:contain;content:"";display:block;height:120%;position:absolute;right:0;top:0;transform:translate3d(40%,-10%,0);width:40%}}main .pad{left:63%;position:relative;transform:translateY(0);width:40%}@media screen and (min-width:768px){main .pad{transform:translateY(-25%)}}@media screen and (min-width:1160px){main .pad{display:none}}main .tampon{max-height:500px}@media screen and (min-width:758px){main .tampon{display:none}}main .discover{position:relative}main .discover:before{background-image:url(/img/tampon.svg);background-repeat:no-repeat;background-size:contain;content:"";height:700px;left:-10px;max-width:35%;position:absolute;rotate:-10deg;top:0;width:100%;z-index:-10}@media screen and (min-width:1000px){main .discover:before{left:-5%}}@media screen and (min-width:1160px){main .discover:before{left:-10%}}main .discover .area{margin-bottom:115px}main .discover .area .locations{display:grid;gap:45px;grid-template-columns:1fr;margin:22px 0}@media screen and (min-width:935px){main .discover .area .locations{grid-template-columns:2fr 2fr}}main .discover .area .locations article{background-color:#ffe3ec;border:2px solid #870557;box-shadow:10px 10px 0 0 #870557;color:#620042;display:flex;position:relative}main .discover .area .locations article img{max-width:150px}main .discover .area .locations article a{bottom:18px;color:#620042;display:inline-flex;position:absolute;right:18px;text-decoration:none}main .discover .area .locations article a svg{margin:auto 0 auto 8px}main .discover .area .locations article .info{display:block;padding:22px 40px}main .discover .area .locations article .info .name{font-family:Poppins,sans-serif;font-size:28px;font-weight:900;margin:0}main .discover .polka-dots{bottom:200px;left:65%;overflow-x:hidden;position:relative;z-index:-10}@media screen and (min-width:935px){main .discover .polka-dots{left:80%}}@media screen and (min-width:1160px){main .discover .polka-dots{left:90%}}main .support{background:#f364a2;color:#ffe3ec;padding:90px 0;width:100%;z-index:0}main .support .container{position:relative;z-index:0}main .support .container .ctas{display:flex;flex-direction:column;justify-content:center;margin-top:75px}main .support .container .ctas span{display:block;font-family:Delicious Handrawn,sans-serif;font-size:28px;margin:20px auto;rotate:-6deg;text-align:center}@media screen and (min-width:768px){main .support .container .ctas span{margin:auto 20px}}main .support .container .ctas a{background-color:#ffe3ec;border:2px solid #870557;box-shadow:5px 5px 0 0 #870557;color:#870557;display:inline-flex;flex-direction:row;font-weight:900;gap:18px;justify-content:center;padding:18px;text-align:center;text-transform:uppercase}main .support .container .ctas a svg{margin-bottom:auto;margin-top:auto}@media screen and (min-width:768px){main .support .container .ctas a{width:100%}main .support .container .ctas{flex-direction:row;gap:20px;justify-content:left}}main .support .container:after{background-image:url(/img/cup.svg);background-repeat:no-repeat;background-size:contain;content:"";height:100%;left:-10%;max-height:300px;max-width:285px;position:absolute;top:-25%;width:100%}@media screen and (min-width:935px){main .support .container:after{left:-5%;top:-35%}}@media screen and (min-width:1450px){main .support .container:after{left:-300px;max-height:400px;max-width:400px;width:400px}}.remodal-overlay{background-color:#620042;opacity:50%}.remodal{background-color:#ffe3ec;border:10px solid #620042;padding:0}.remodal .remodal-close{color:#fff}.remodal .map{background-color:#fff;height:350px;width:100%}.remodal .content{color:#620042;padding:1.2rem;text-align:left}.remodal .content h1{font-size:36px;margin-bottom:0;margin-top:18px;padding-bottom:0}.remodal .content h1,.remodal .content p{font-family:Poppins,sans-serif;padding-top:0}.remodal .content p{font-size:18px;margin-top:0}.remodal .content a{background-color:#620042;color:#ffe3ec;display:block;margin-top:36px;padding-bottom:18px;padding-top:18px;text-align:center;text-decoration:none;width:100%}.remodal .content .info{display:flex;flex-direction:column;gap:30px}@media screen and (min-width:590px){.remodal .content .info{flex-direction:row}}.remodal .content .info .address{display:flex;margin-bottom:auto}.remodal .content .info .address svg{margin-bottom:auto;margin-right:16px;margin-top:8px}.remodal .content .info .address address{font-style:normal}.remodal .content .info .hours{display:flex;margin-bottom:auto}.remodal .content .info .hours svg{margin-bottom:auto;margin-right:16px;margin-top:auto}.remodal .content .info .hours span{display:block;margin-bottom:auto;margin-top:auto}.contact{position:relative}.contact:after{background-image:url(/img/footer-art.svg);background-position:top;background-repeat:no-repeat;background-size:cover;content:"";height:100%;max-height:600px;max-width:600px;position:absolute;width:100%}form{background-color:#ffe3ec;border:2px solid #870557;box-shadow:10px 10px 0 0 #870557;padding:36px}form button[type=submit]{background-color:#870557;border:none;color:#ffe3ec;cursor:pointer;font-size:1.2rem;padding:12px 48px}form button[type=submit]:hover{background-color:#f364a2;color:#620042}form .form-row{display:flex;flex-direction:column;margin-bottom:20px}form .form-row label{font-weight:700;margin-bottom:5px}form .form-row input,form .form-row textarea{border:2px solid #870557;box-sizing:border-box;margin-bottom:12px;padding:12px;width:100%}form .form-row input:focus,form .form-row textarea:focus{border-color:#f364a2;outline:none}form .important-field{display:none}
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+
+html.remodal-is-locked {
+  overflow: hidden;
+  touch-action: none;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow: auto;
+
+  text-align: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.remodal-wrapper:after {
+  display: inline-block;
+
+  height: 100%;
+  margin-left: -0.05em;
+
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay,
+.remodal-wrapper {
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.remodal {
+  position: relative;
+
+  outline: none;
+
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+       text-size-adjust: 100%;
+}
+
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+
+/* Default theme styles for the background */
+
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+  filter: blur(3px);
+}
+
+/* Default theme styles of the overlay */
+
+.remodal-overlay {
+  background: rgba(43, 46, 56, 0.9);
+}
+
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.remodal-overlay.remodal-is-opening {
+  animation-name: remodal-overlay-opening-keyframes;
+}
+
+.remodal-overlay.remodal-is-closing {
+  animation-name: remodal-overlay-closing-keyframes;
+}
+
+/* Default theme styles of the wrapper */
+
+.remodal-wrapper {
+  padding: 10px 10px 0;
+}
+
+/* Default theme styles of the modal dialog */
+
+.remodal {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 35px;
+  transform: translate3d(0, 0, 0);
+
+  color: #2b2e38;
+  background: #fff;
+}
+
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.remodal.remodal-is-opening {
+  animation-name: remodal-opening-keyframes;
+}
+
+.remodal.remodal-is-closing {
+  animation-name: remodal-closing-keyframes;
+}
+
+/* Vertical align of the modal dialog */
+
+.remodal,
+.remodal-wrapper:after {
+  vertical-align: middle;
+}
+
+/* Close button */
+
+.remodal-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+  overflow: visible;
+
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+  transition: color 0.2s;
+  text-decoration: none;
+
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.remodal-close:hover,
+.remodal-close:focus {
+  color: #2b2e38;
+}
+
+.remodal-close:before {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 25px;
+  line-height: 35px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+
+  width: 35px;
+
+  content: "\00d7";
+  text-align: center;
+}
+
+/* Dialog buttons */
+
+.remodal-confirm,
+.remodal-cancel {
+  font: inherit;
+
+  display: inline-block;
+  overflow: visible;
+
+  min-width: 110px;
+  margin: 0;
+  padding: 12px 0;
+
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+
+  border: 0;
+  outline: 0;
+}
+
+.remodal-confirm {
+  color: #fff;
+  background: #81c784;
+}
+
+.remodal-confirm:hover,
+.remodal-confirm:focus {
+  background: #66bb6a;
+}
+
+.remodal-cancel {
+  color: #fff;
+  background: #e57373;
+}
+
+.remodal-cancel:hover,
+.remodal-cancel:focus {
+  background: #ef5350;
+}
+
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+
+.remodal-confirm::-moz-focus-inner,
+.remodal-cancel::-moz-focus-inner,
+.remodal-close::-moz-focus-inner {
+  padding: 0;
+
+  border: 0;
+}
+
+/* Keyframes
+   ========================================================================== */
+
+@keyframes remodal-opening-keyframes {
+  from {
+    transform: scale(1.05);
+
+    opacity: 0;
+  }
+  to {
+    transform: none;
+
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes remodal-closing-keyframes {
+  from {
+    transform: scale(1);
+
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95);
+
+    opacity: 0;
+    filter: blur(0);
+  }
+}
+
+@keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 641px) {
+  .remodal {
+    max-width: 700px;
+  }
+}
+
+/* IE8
+   ========================================================================== */
+
+.lt-ie9 .remodal-overlay {
+  background: #2b2e38;
+}
+
+.lt-ie9 .remodal {
+  width: 700px;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #FFB8D2;
+  border-top: #620042 12px solid;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  line-height: 1.75;
+  color: #620042;
+}
+body h1, body h2, html h1, html h2 {
+  font-family: "DynaPuff", sans-serif;
+  font-size: 36px;
+  line-height: 1.25;
+}
+@media screen and (min-width: 590px) {
+  body h1, body h2, html h1, html h2 {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h1, body h2, html h1, html h2 {
+    font-size: 56px;
+  }
+}
+body h3, html h3 {
+  font-family: "Poppins", sans-serif;
+  color: #9446ED;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 28px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+@media screen and (min-width: 748px) {
+  header {
+    flex-direction: row;
+  }
+}
+header nav {
+  margin: auto auto;
+  justify-content: center;
+}
+header nav a {
+  color: #A30664;
+  font-weight: bold;
+  display: inline-block;
+  margin: 12px;
+  z-index: 10;
+  cursor: pointer;
+}
+header nav a.active {
+  color: #620042;
+  position: relative;
+}
+header nav a.active:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: -8px;
+  background-image: url("/img/active-indicator.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 80px;
+  z-index: -10;
+}
+@media screen and (min-width: 748px) {
+  header nav {
+    margin-right: unset;
+  }
+}
+header .logo {
+  max-width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 748px) {
+  header .logo {
+    margin-left: unset;
+  }
+}
+
+main .hero {
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+}
+main .hero .copy {
+  max-width: 850px;
+  margin: auto 0;
+}
+main .hero .copy .cta {
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #FFE3EC;
+  box-shadow: #870557 5px 5px 0 0;
+  border: 2px #870557 solid;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #870557;
+  margin-top: 30px;
+}
+main .hero .copy .cta svg {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 12px;
+}
+main .hero:after {
+  display: none;
+}
+@media screen and (min-width: 1160px) {
+  main .hero:after {
+    display: block;
+    background-image: url("/img/pad.svg");
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    right: 0;
+    transform: translate3d(40%, -10%, 0);
+  }
+}
+main .pad {
+  width: 40%;
+  position: relative;
+  left: 63%;
+  transform: translateY(0%);
+}
+@media screen and (min-width: 768px) {
+  main .pad {
+    transform: translateY(-25%);
+  }
+}
+@media screen and (min-width: 1160px) {
+  main .pad {
+    display: none;
+  }
+}
+main .tampon {
+  max-height: 500px;
+}
+@media screen and (min-width: 758px) {
+  main .tampon {
+    display: none;
+  }
+}
+main .discover {
+  position: relative;
+}
+main .discover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  background-image: url("/img/tampon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+  width: 100%;
+  max-width: 35%;
+  z-index: -10;
+  rotate: -10deg;
+}
+@media screen and (min-width: 1000px) {
+  main .discover:before {
+    left: -5%;
+  }
+}
+@media screen and (min-width: 1160px) {
+  main .discover:before {
+    left: -10%;
+  }
+}
+main .discover .area {
+  margin-bottom: 115px;
+}
+main .discover .area .locations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 45px;
+  margin: 22px 0;
+}
+@media screen and (min-width: 935px) {
+  main .discover .area .locations {
+    grid-template-columns: 2fr 2fr;
+  }
+}
+main .discover .area .locations article {
+  display: flex;
+  position: relative;
+  background-color: #FFE3EC;
+  box-shadow: #870557 10px 10px 0 0;
+  border: 2px #870557 solid;
+  color: #620042;
+}
+main .discover .area .locations article img {
+  max-width: 150px;
+}
+main .discover .area .locations article a {
+  position: absolute;
+  display: inline-flex;
+  bottom: 18px;
+  right: 18px;
+  color: #620042;
+  text-decoration: none;
+}
+main .discover .area .locations article a svg {
+  margin: auto 0 auto 8px;
+}
+main .discover .area .locations article .info {
+  display: block;
+  padding: 22px 40px;
+}
+main .discover .area .locations article .info .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0;
+}
+main .discover .polka-dots {
+  position: relative;
+  overflow-x: hidden;
+  left: 65%;
+  bottom: 200px;
+  z-index: -10;
+}
+@media screen and (min-width: 935px) {
+  main .discover .polka-dots {
+    left: 80%;
+  }
+}
+@media screen and (min-width: 1160px) {
+  main .discover .polka-dots {
+    left: 90%;
+  }
+}
+main .support {
+  background: #F364A2;
+  color: #FFE3EC;
+  width: 100%;
+  padding: 90px 0;
+  z-index: 0;
+}
+main .support .container {
+  position: relative;
+  z-index: 0;
+}
+main .support .container .ctas {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .support .container .ctas span {
+  display: block;
+  font-family: "Delicious Handrawn", sans-serif;
+  font-size: 28px;
+  margin: 20px auto;
+  rotate: -6deg;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  main .support .container .ctas span {
+    margin: auto 20px;
+  }
+}
+main .support .container .ctas a {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 18px;
+  text-align: center;
+  background-color: #FFE3EC;
+  box-shadow: #870557 5px 5px 0 0;
+  border: 2px #870557 solid;
+  padding: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #870557;
+  text-decoration: none;
+}
+main .support .container .ctas a svg {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media screen and (min-width: 768px) {
+  main .support .container .ctas a {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  main .support .container .ctas {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: left;
+  }
+}
+main .support .container:after {
+  content: "";
+  background-image: url("/img/cup.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  max-width: 285px;
+  position: absolute;
+  top: -25%;
+  left: -10%;
+}
+@media screen and (min-width: 935px) {
+  main .support .container:after {
+    top: -35%;
+    left: -5%;
+  }
+}
+@media screen and (min-width: 1450px) {
+  main .support .container:after {
+    left: -300px;
+    width: 400px;
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+.remodal-overlay {
+  background-color: #620042;
+  opacity: 50%;
+}
+
+.remodal {
+  padding: 0;
+  border: 10px solid #620042;
+  background-color: #FFE3EC;
+}
+.remodal .remodal-close {
+  color: #620042;
+  z-index: 50;
+}
+.remodal .map {
+  height: 350px;
+  width: 100%;
+  background-color: white;
+}
+.remodal .content {
+  text-align: left;
+  padding: 1.2rem;
+  color: #620042;
+}
+.remodal .content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  margin-bottom: 0;
+  margin-top: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.remodal .content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.remodal .content a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #FFE3EC;
+  background-color: #620042;
+  text-decoration: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 36px;
+}
+.remodal .content .info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (min-width: 590px) {
+  .remodal .content .info {
+    flex-direction: row;
+  }
+}
+.remodal .content .info .address {
+  margin-bottom: auto;
+  display: flex;
+}
+.remodal .content .info .address svg {
+  margin-bottom: auto;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+.remodal .content .info .address address {
+  font-style: normal;
+}
+.remodal .content .info .hours {
+  display: flex;
+  margin-bottom: auto;
+}
+.remodal .content .info .hours svg {
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: 16px;
+}
+.remodal .content .info .hours span {
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.contact {
+  position: relative;
+}
+.contact:after {
+  content: "";
+  position: absolute;
+  background-image: url("/img/footer-art.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+form {
+  margin: 64px 0;
+  background-color: #FFE3EC;
+  padding: 36px;
+  box-shadow: #870557 10px 10px 0 0;
+  border: 2px #870557 solid;
+}
+form button[type=submit] {
+  background-color: #870557;
+  color: #FFE3EC;
+  border: none;
+  padding: 12px 48px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+form button[type=submit]:hover {
+  background-color: #F364A2;
+  color: #620042;
+}
+form .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+form .form-row label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+form .form-row input, form .form-row textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #870557;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+form .form-row input:focus, form .form-row textarea:focus {
+  outline: none;
+  border-color: #F364A2;
+}
+form .important-field {
+  display: none;
+}
