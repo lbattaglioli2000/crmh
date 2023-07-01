@@ -685,10 +685,6 @@ body h3, html h3 {
   padding-bottom: 0;
 }
 
-main {
-  overflow-x: hidden;
-}
-
 .container {
   max-width: 1170px;
   margin-left: auto;
